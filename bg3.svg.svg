@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1277px" height="981px" viewBox="0 0 1277 981" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.1 (67048) - http://www.bohemiancoding.com/sketch -->
+    <title>bg3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="86.4331887%" cy="60.3595951%" fx="86.4331887%" fy="60.3595951%" r="107.581886%" gradientTransform="translate(0.864332,0.603596),scale(0.767846,1.000000),rotate(-62.778579),translate(-0.864332,-0.603596)" id="radialGradient-1">
+            <stop stop-color="#EAEAEA" offset="0%"></stop>
+            <stop stop-color="#FBFBFB" offset="98.2667211%"></stop>
+            <stop stop-color="#FCFCFC" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="bg3" fill="url(#radialGradient-1)">
+            <path d="M795.660156,0 C810.438802,298.635417 956.48116,550.566406 1275.78723,755.792969 C1276.98232,757.292847 1276.98232,758.822185 1275.78723,760.380981 C1274.59214,761.939778 1205.96775,835.245076 1109.91406,980.296875 L-1.8189894e-12,980.296875 L-1.8189894e-12,0 L795.660156,0 Z"></path>
+        </g>
+    </g>
+</svg>
