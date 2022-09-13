@@ -38,6 +38,9 @@ a {
 .lista_nav a:hover {
      text-decoration: underline;
 }
+.Registrarse {
+    text-decoration: 2px underline #2a354e;
+}
  
 .contact {
     margin-left: 100px;
