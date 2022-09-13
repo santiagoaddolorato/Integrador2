@@ -28,8 +28,12 @@ body {
     border-radius: 3px;
     margin-bottom: 10px;
     min-height: 325px;
-    margin-left: 550px;
+    margin-left: 700px;
     
+}
+.segundaparte {
+    align-items: center;
+    justify-content: center;
 }
 .segundaparte h1 {
      display:flex;
@@ -46,13 +50,13 @@ body {
 
 }
 .segundaparte h4 {
-    width: 70%;
+    width: 73%;
      display: flex;
      color: #2a354e;
      align-items: center;
      justify-content: center;
      font-size: 22px;
-     margin-left: 70px;
+     margin-left: 110px;
      margin-bottom: 30px;
 
 }
@@ -65,7 +69,7 @@ body {
      
 }
 .inputs2 {
-    margin: 20px 0px 0px 100px;
+    margin: 20px 0px 0px 125px;
     
     
 }
@@ -80,7 +84,7 @@ body {
     border-radius: 3px;
     font-size: 15px;
     border: 1px  #ccc solid;
-    padding: 3px 4px;
+    padding: 3px 20px;
 }
 .passwordinput {
     padding: 0px  20px;
@@ -96,7 +100,8 @@ button{
     text-decoration: none;
     justify-content: center;
     align-items: center;
-    margin: 20px 0px 0px 150px;
-    padding: 5px 15px;
+    margin: 20px 0px 0px 185px;
+    padding: 5px 25px;
+    border: 1px #3A43A6 solid;
     
 } 
