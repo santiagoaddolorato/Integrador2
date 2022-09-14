@@ -15,7 +15,14 @@ body {
     font-size: 15px;
     margin: 50px 150px;
 }
- 
+.imagen2 {
+    display: flex;
+}
+ .imagen2 img {
+    width: 20%;
+    margin: 10px 0px 0px 150px;
+
+ }
 .box {
     width: 25%;
     height: 450px;
@@ -28,7 +35,7 @@ body {
     border-radius: 3px;
     margin-bottom: 10px;
     min-height: 325px;
-    margin-left: 700px;
+    margin-left: 250px;
     
 }
 .segundaparte {
