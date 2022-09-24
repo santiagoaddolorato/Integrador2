@@ -19,7 +19,7 @@ body {
     display: flex;
 }
  .imagen2 img {
-    width: 20%;
+    width: 25%;
     margin: 10px 0px 0px 150px;
 
  }
@@ -32,15 +32,17 @@ body {
     align-items: center;
     box-shadow: 0 5px 25px rgb(0 0 0 / 10%);
     padding: 15px 15px;
+    padding-right: 30px;
     border-radius: 3px;
     margin-bottom: 10px;
     min-height: 325px;
-    margin-left: 250px;
+    margin-left: 150px;
     
 }
 .segundaparte {
     align-items: center;
     justify-content: center;
+    justify-items: center;
 }
 .segundaparte h1 {
      display:flex;
@@ -63,7 +65,7 @@ body {
      align-items: center;
      justify-content: center;
      font-size: 22px;
-     margin-left: 110px;
+     margin-left: 100px;
      margin-bottom: 30px;
 
 }
@@ -76,7 +78,7 @@ body {
      
 }
 .inputs2 {
-    margin: 20px 0px 0px 125px;
+    margin: 20px 0px 0px 100px;
     
     
 }
@@ -107,7 +109,7 @@ button{
     text-decoration: none;
     justify-content: center;
     align-items: center;
-    margin: 20px 0px 0px 185px;
+    margin: 20px 0px 0px 150px;
     padding: 5px 25px;
     border: 1px #3A43A6 solid;
     
