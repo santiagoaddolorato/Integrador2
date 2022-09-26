@@ -1,0 +1,546 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+ 
+ 
+.nav-bar {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: transparent;
+    padding-top: 20px;
+    gap: 30px;
+     
+    top: 0;
+     z-index: 1 ;
+     
+}
+.nav-bar i {
+ font-size: 36px;  
+ display: none; 
+}
+#toggle-menu {
+    display: none;
+}
+.logo {
+   height: 50px;
+}
+.lista_nav {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    color: #2a354e;
+    font-family: 'Nunito', sans-serif;
+    right: 100px;
+    font-weight: 600;
+}
+.lista_nav a:hover {
+     text-decoration: underline;
+}
+.Registrarse {
+    text-decoration: 2px underline #2a354e;
+}
+ 
+.contact {
+    margin-left: 100px; 
+}
+.contact button {
+    width: 100%;
+    height: 30px;
+    font-size: 15px;
+     color: white;
+     background-color: #00C8AC;;
+     border-radius: 5px;
+     padding: 7px 20px 20px 20px;
+     border: 0px;   
+}
+.contact a {
+    font-family: 'Nunito', sans-serif;
+ }
+
+.Hero {
+    width: 100%;
+    height: 850px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     padding-top: 10px;
+    
+     
+}
+ 
+.container_inicio {
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 20px 20px;
+    font-size: 30px;
+    gap: 50px;
+    padding-bottom: 150px; 
+    
+}
+.Hero img {
+    width: 40%;
+    min-width: 450px;
+    font-size: 50px;
+    margin-top: 30px;
+    max-width: none;
+    
+}
+.container_inicio h1 {
+     width: 75%;
+    font-size: 47px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    font-family: 'Nunito', sans-serif;
+    color:#2a354e;
+    line-height: 50px; 
+}
+.colorazul {
+    color: #3A43A6;
+}
+.container_inicio p {
+    width: 80%;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #757b82;
+    font-family: 'Nunito', sans-serif;
+}
+.container_inicio button {
+    width: 150px;
+    height: 30px;
+    font-size: 15px;  
+     color: white;
+     background-color: #3A43A6;;
+     border-radius: 5px;
+     padding: 7px 20px 20px 20px;
+     border: 0px;    
+}
+.servicios {
+     
+    background: #f5f5f5;
+    display: flex;
+   padding: 75px 100px;
+   padding-bottom: 150px;
+   gap: 70px;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   display: flex;
+   flex-wrap: wrap;
+   z-index: 2 ;
+}
+.Servicios2 {
+     width: 15%;
+    height: 300px;
+    background-color: white;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    box-shadow: 0 5px 25px rgb(0 0 0 / 10%);
+    padding: 30px 25px;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    
+    flex-wrap: wrap;   
+}
+.Servicios2 img {
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    
+}
+.Servicios2 h4 {
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    font-family: 'Nunito', sans-serif;
+    margin: 0 0 15px;
+    color: #2a354e;
+    text-align: left;
+    text-align: center;
+} 
+.Servicios2 p {
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    text-align: left;
+    overflow-x: hidden;
+    line-height: 26px;
+    text-align: center;
+}
+.titulo2  {
+    width: 100%;
+    height: 200px;
+    background-color: white;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    padding-top: 50px;
+    z-index: 3 ;
+}   
+.titulo2 h2 {
+    width: 50%;
+    font-family: "Urbanist", sans-serif;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    color: #3A43A6;;
+    margin-left: 42%;
+    font-size: 150% ;
+     padding: 20px ;
+     
+}
+.titulo2 h3 {
+    width: 30%;
+    font-family:'Nunito', sans-serif;
+    color: #2a354e;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    margin-left: 36%;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 600;
+}
+.sectionphotos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    align-items: center;
+    background-color:white;
+    gap: 40px;
+      
+     padding-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+.fotoempresa1 {
+     width: 30%;
+      
+    }
+.fotoempresa1 img {
+    margin-bottom: 30px;
+    border-radius: 5%;
+    font-size: 20px;
+}
+.fotoempresa1 h2 {
+    color: #343f52;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.fotoempresa1 p {
+  width: 75%;
+  font-family: 'Nunito', sans-serif;
+  font-size: 17px;
+  color: #757b82;
+  z-index: 4 ;
+ 
+}
+.footer {
+    width: 100%;
+    height: 250px;
+    background-color: #f5f5f5;
+    padding-top: 50px;
+    display: flex;    
+}
+ 
+.empresas {
+    width: 50%;
+    padding-left: 120px;
+}
+.imagen1 {
+    display: flex;
+    align-items: center;
+}
+.imagen1 img {
+    width: 130px;
+    font-size: 15px;
+    margin: 30px 20px;
+}
+.imagen2 {
+    display: flex;
+    align-items: center;
+    margin-left: 30px 20px;
+}
+.imagen2 img {
+    width: 100px;
+    font-size: 15px;
+    margin: 30px 20px;
+}
+ 
+.contacto {
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+     
+    text-align:left;
+}
+.contacto h4 {
+    font-size: 20px;
+    color: black;
+    margin: 30px 5px;
+}
+.p1 {
+    margin-bottom: 30px;
+}
+@media (max-width:1261px ) {
+    .Servicios2 {
+        width:30% ;
+        height: 230px;
+    }
+    .Servicios2 p {
+        width: 100%;
+    }
+    
+}
+ @media (max-width: 953px) {
+    .Servicios2 {
+        width: 50%;
+    }
+ }
+ @media (max-width: 1400px) {
+    .fotoempresa1 { 
+        width: 40%;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        justify-items: center
+    }
+}
+
+@media (max-width: 1080px) {
+    .fotoempresa1{
+        width: 50%;
+         
+    }
+    
+}
+
+@media (max-width: 1156px) {
+    .titulo2 h3 {
+        width: 50%;
+        margin-left: 28%;
+
+    }
+
+}
+@media  (max-width: 992px) {
+    .titulo2 h2 {
+        margin-left: 35%;
+    }
+    .titulo2 h3 {
+        margin-left: 23%;
+    }
+    .sectionphoto {
+        margin-top: 30px;
+        margin-left: 70px;
+    }
+}
+    
+
+ @media (max-width: 910px) {
+    .container_inicio h1 {
+        font-size: 35px;
+        line-height: 40px;
+        
+    }
+    .container_inicio p {
+        font-size: 15px;
+    }
+ }
+ @media (max-width: 785px) {
+    .nav-bar {
+        justify-content: center;
+         
+         
+    } 
+     .contact {
+        margin-left: 30px; 
+    }
+    .Hero img {
+        display: none;
+    }
+    .container_inicio {
+        width: 100%;
+        margin-left: 200px;
+        
+    }
+     
+} 
+ @media (max-width: 768px) {
+    
+     
+    
+       .sectionphotos{
+        padding-left: 0%;
+       }
+       .fotoempresa1 p {
+        width: 100%;
+       }
+       .Hero {
+        height: 750px;
+       }
+    .empresas {
+        padding-left: 50px
+         
+    }
+     .footer {
+        gap:70px    
+     }
+ }
+ @media (max-width:576px) {
+    .lista_nav {
+        background-color: #FBFBFB;
+        width: 100%;
+        height: calc(100vh - 70px);
+         position: absolute;
+          top: 100px;
+         left: 0;
+         flex-direction: column ;
+         align-items: center;
+         justify-content: center;
+         font-size: 20px;
+         transform: translatex(200%);
+         transition: all 0.4s ease-out;
+         
+    }
+    .contact button {
+        font-size: 15px;
+        margin-right: 20px;
+    }
+    .navbar2 i {
+        display: block;
+        margin-left: 200px;
+        width: 100%;
+    }
+    .navbar2 {
+        width: 90%;
+    }
+    #toggle-menu:checked ~ .lista_nav {
+        transform: translateX(0%);
+        transition: all 0.4s ease-in;
+         
+    }
+    .container_inicio {
+        width: 90%;
+        margin: 0px 60px;
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+        align-items: center;
+        text-align: center;
+    }
+    .container_inicio h1 {
+        width: 100%;
+    }
+    .container_inicio p {
+        width: 100%;
+    } 
+    .Servicios2 {
+        height: 0%;
+    }
+    .titulo2 h2 {
+        margin-left: 27%;
+    }
+    .titulo2 h3 {
+        width: 60%;
+        font-size: 25px;
+        margin-left: 18%; ;
+    }
+       .sectionphoto {
+        width: 100%;
+        justify-content: flex-start;
+        }
+        .fotoempresa1 {
+             width: 100%;
+             margin-left: 15%;
+        }
+        .fotoempresa1 h2 {
+            margin-left: 150px;
+            font-size: 27px;
+            margin-bottom: 20px;
+        }
+        .CNH {
+            margin-left: 0px
+        }
+        .fotoempresa1 p {
+            width: 90%;
+            font-size: 17px;
+            text-align: center;
+             
+}
+ }
+@media (max-width: 375px) {
+    .footer {
+        display: flex;
+        flex-direction: column;
+    }
+    .Servicios {
+        display: flex;  
+    }
+    .nav-bar {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    .logo {
+     height: 30px;
+     margin-left: 40px;
+    }
+    .lista_nav {
+        width: 440px;
+         
+        
+    }
+     
+    .servicios {
+        padding: 75px 0px;
+    }
+    .titulo2 h2 {
+        font-size: 20px;
+        padding-left: 0%;
+    }
+    .titulo2 h3 {
+        width: 70%;
+        font-size: 23px;
+        margin-left: 15%;
+    }
+    .fotoempresa1 {
+        padding-right: 0px
+    }
+    .fotoempresa1 img {
+        width: 270px
+    }
+    .fotoempresa1 h2 {
+        margin-left: 80px
+    }
+    .fotoempresa1 p {
+        width: 90%;
+        margin-right: 70px;
+    }
+    .CNH {
+        margin-left: 40px
+    }
+    .contacto {
+        margin-left: 70px;
+        width: 60%;
+        margin-bottom: 40px
+    }
+}
