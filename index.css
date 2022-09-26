@@ -19,7 +19,17 @@ a {
     background-color: transparent;
     padding-top: 20px;
     gap: 30px;
-    
+     
+    top: 0;
+     z-index: 1 ;
+     
+}
+.nav-bar i {
+ font-size: 36px;  
+ display: none; 
+}
+#toggle-menu {
+    display: none;
 }
 .logo {
    height: 50px;
@@ -56,6 +66,7 @@ a {
 .contact a {
     font-family: 'Nunito', sans-serif;
  }
+
 .Hero {
     width: 100%;
     height: 850px;
@@ -63,7 +74,7 @@ a {
     justify-content: center;
     align-items: center;
      padding-top: 10px;
-     z-index: 1 ;
+    
      
 }
  
@@ -176,11 +187,12 @@ a {
     justify-content: center;
     justify-items: center;
     align-items: center;
+    align-content: center;
     padding-top: 50px;
     z-index: 3 ;
 }   
 .titulo2 h2 {
-    width: 30%;
+    width: 50%;
     font-family: "Urbanist", sans-serif;
     justify-content: center;
     align-items: center;
@@ -190,6 +202,7 @@ a {
     margin-left: 42%;
     font-size: 150% ;
      padding: 20px ;
+     
 }
 .titulo2 h3 {
     width: 30%;
@@ -199,7 +212,7 @@ a {
     align-items: center;
     justify-items: center;
     align-content: center;
-    margin-left: 35%;
+    margin-left: 36%;
     font-size: 30px;
     text-align: center;
     font-weight: 600;
@@ -212,7 +225,7 @@ a {
     align-items: center;
     background-color:white;
     gap: 40px;
-     padding-left: 120px;
+      
      padding-bottom: 50px;
     display: flex;
     flex-wrap: wrap;
@@ -249,6 +262,7 @@ a {
 }
  
 .empresas {
+    width: 50%;
     padding-left: 120px;
 }
 .imagen1 {
@@ -272,9 +286,10 @@ a {
 }
  
 .contacto {
+    width: 50%;
     justify-content: center;
     align-items: center;
-    margin: 25px 190px;
+     
     text-align:left;
 }
 .contacto h4 {
@@ -324,7 +339,22 @@ a {
         margin-left: 28%;
 
     }
+
 }
+@media  (max-width: 992px) {
+    .titulo2 h2 {
+        margin-left: 35%;
+    }
+    .titulo2 h3 {
+        margin-left: 23%;
+    }
+    .sectionphoto {
+        margin-top: 30px;
+        margin-left: 70px;
+    }
+}
+    
+
  @media (max-width: 910px) {
     .container_inicio h1 {
         font-size: 35px;
@@ -354,4 +384,102 @@ a {
     }
      
 } 
+ @media (max-width: 768px) {
+    
+     
+    
+       .sectionphotos{
+        padding-left: 0%;
+       }
+       .fotoempresa1 p {
+        width: 100%;
+       }
+       .Hero {
+        height: 750px;
+       }
+    .empresas {
+        padding-left: 50px
+         
+    }
+     .footer {
+        gap:70px    
+     }
+ }
+ @media (max-width:576px) {
+    .lista_nav {
+        background-color: #FBFBFB;
+        width: 100%;
+        height: calc(100vh - 70px);
+         position: absolute;
+          top: 100px;
+         left: 0;
+         flex-direction: column ;
+         align-items: center;
+         justify-content: center;
+         font-size: 20px;
+         transform: translatex(200%);
+         transition: all 0.4s ease-out;
+         
+    }
+    .contact button {
+        font-size: 15px;
+        margin-right: 20px;
+    }
+    .navbar2 i {
+        display: block;
+        margin-left: 200px;
+    }
+    #toggle-menu:checked ~ .lista_nav {
+        transform: translateX(0%);
+        transition: all 0.4s ease-in;
+    }
+    .container_inicio {
+        width: 90%;
+        margin: 0px 60px;
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+        align-items: center;
+        text-align: center;
+    }
+    .container_inicio h1 {
+        width: 100%;
+    }
+    .container_inicio p {
+        width: 100%;
+    } 
+    .Servicios2 {
+        height: 0%;
+    }
+    .titulo2 h2 {
+        margin-left: 27%;
+    }
+    .titulo2 h3 {
+        width: 60%;
+        font-size: 25px;
+        margin-left: 18%; ;
+    }
+       .sectionphoto {
+        width: 100%;
+        justify-content: flex-start;
+        }
+        .fotoempresa1 {
+             width: 100%;
+             margin-left: 15%;
+        }
+        .fotoempresa1 h2 {
+            margin-left: 150px;
+            font-size: 27px;
+            margin-bottom: 20px;
+        }
+        .CNH {
+            margin-left: 0px
+        }
+        .fotoempresa1 p {
+            width: 90%;
+            font-size: 17px;
+            text-align: center;
+             
+}
+ }
  
