@@ -265,6 +265,9 @@ a {
     width: 50%;
     padding-left: 120px;
 }
+.sectioncontact {
+    width: 50%;
+}
 .imagen1 {
     display: flex;
     align-items: center;
@@ -286,7 +289,7 @@ a {
 }
  
 .contacto {
-    width: 50%;
+    width: 80%;
     justify-content: center;
     align-items: center;
      
@@ -481,5 +484,28 @@ a {
             text-align: center;
              
 }
+        .footer {
+            gap: 70px   ;
+        }
+        .imagen1 img {
+            width: 100px;
+            font-size: 15px;
+            margin: 30px 5px;
+         }
+         .imagen1 p {
+            width: 100%;
+            font-size: 15px;
+            margin-left: 10px;
+         }
+         .imagen2 img {
+            width: 100px;
+            font-size: 15px;
+            margin: 30px 5px;
+         }
+         .imagen2 p {
+            width: 100%;
+            font-size: 15px;
+            margin-left: 0px;
+         }
  }
  
